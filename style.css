@@ -1,0 +1,32 @@
+
+/* 네이게이션 바 */
+.nav {
+  padding : 20px;
+  display: flex;
+  justify-content : space-between;
+  border-bottom: solid black 1px;
+}
+
+.nav-right { 
+  display: flex;
+  gap: 20px;
+}
+
+/* 환영 메세지 */
+.welcome-container {
+  padding: 40px;
+  font-size: 30px;
+}
+
+/* 프로젝트 카드 */
+.project-title {
+  padding: 30px;
+  font-size: 20px;
+}
+
+.project-cards-container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
